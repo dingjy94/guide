@@ -45,13 +45,18 @@ double[] List = new double[10];
 ## Another way to create an Array:
 
 ```java
-dataType[] arrayName = {value0, value1, ..., valuek};
+dataType[] arrayName = {value_0, value_1, ..., value_k};
 ```
 
 ## Code snippets of above syntax:
 
 ```java
 double[] list = {1, 2, 3, 4};
+
+The code above is equivalent to:
+double[] list = new double[4];
+*IMPORTANT NOTE: Please note the difference between the types of brackets
+that are used to represent arrays in two different ways.
 ```
 
 ## Accessing Arrays:
@@ -80,6 +85,13 @@ Note: You can however reset the array like so
 arrayName = new dataType[] {value1, value2, value3};
 ```
 
+## Size of Arrays:
+It's possible to find the number of elements in an array using the "length attribute".
+```java
+int[] a = {4, 5, 6, 7, 8}; // declare array
+System.out.println(a.length); //prints 5
+```
+
 ## Code snippets of above syntax:
 ```java
 list[1] = 3; // now, if you access the array like above, it will output 3 rather than 2
@@ -102,6 +114,7 @@ Output:
     7
     8
 ```
+
 
 ### Multi-dimensional Arrays
 Two-dimensional arrays (2D arrays) can be thought of as a table with rows and columns

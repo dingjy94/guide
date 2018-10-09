@@ -21,6 +21,7 @@ title: JavaScript Tutorials and Other Resources
 *   <a href='http://devdocs.io' target='_blank' rel='nofollow'>DevDocs</a>
 *   <a href='http://overapi.com/javascript' target='_blank' rel='nofollow'>OverAPI JavaScript Cheat Sheet</a>
 *   <a href='http://www.ecma-international.org/publications/standards/Ecma-262.htm' target='_blank' rel='nofollow'>ECMA-262</a>
+*   <a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript' target='_blank' rel='nofollow'>Mozilla Developer Network (MDN)</a>
 
 Find javascript libraries at <a href='http://jster.net' target='_blank' rel='nofollow'>http://jster.net</a>
 
@@ -85,6 +86,12 @@ Find javascript libraries at <a href='http://jster.net' target='_blank' rel='nof
 ## Podcasts
 *   <a href='https://devchat.tv/js-jabber' target='_blank' rel='nofollow'>JS Jabber</a>
 
+
+
+## Video Tutorials
+
+*   <a href='https://www.youtube.com/watch?v=fju9ii8YsGs' target='_blank' rel='nofollow'>Derek Banas' Learn JS In One Video </a>
+*   <a href='https://www.youtube.com/watch?v=O8wwnhdkPE4'>Derek Banas' Object Oriented JavaScript</a>
 
 ## Books
 

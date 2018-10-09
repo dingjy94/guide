@@ -16,14 +16,18 @@ title: Useful Commands
 
 ## Exiting Vi, Vim, Nvim, Gvim
 1. Press escape to get you into "normal" mode
-2. Type `:q`, press enter. If you receive an error try `:q!`
-3. To exit and save, type `:q`
+2. `:q` will soft quit vim 
+3. `:q!` will force quit vim 
+4. `:qa` this will close all files open 
+5. `:qa!` closes all files while abandoning changes 
+6. `:q` saves and closes current file
+
 (NOTE: The command `:q!` will force Vim to exit without saving. Make sure you save first by typing the command `:w` if you do not want to lose any changes you've made.)
 
 **OR**
 
 - Type ZZ (save and quit)
-- Type `:wq` (save and quit but using with the commonly used "w" and "q" commands)
+- Type `:wq`/`:x` (save and quit but using with the commonly used "w" and "q" commands)
 
 ## Setting line numbers
 1. Press escape to get you into "normal" mode
@@ -62,6 +66,9 @@ __Redo__: Press `U` (`Shift` + `u`) or type in `:redo` and press `Enter`.
 ## Opening a file in a specific line
 - vi filename +n, where n is the line number
 
+## Opening a file searching for word/term
+- vi filename +/word, where word is what you are looking for. The cursor will be positioned on the first occurence of the word.
+
 ## Bare minimum functionality
 
 Most likely you'll find yourself in "normal" mode, it allows you to enter commands by pressing the colon `:` key.
@@ -90,6 +97,9 @@ To overcome this you can use Vim's **Paste mode** which you can activate by ente
 You are now in *paste* mode.
 You can then enter insert mode with `i` and paste the block of text/code without any issues!
 To return to regular Vim without paste mode you can enter normal mode (`escape` or `crtl + c`) and type `:set nopaste`, and press ENTER
+
+## Compiling a Project
+Vim has very tight integration with the `make` build automation tool. If your project uses a Makefile, you can type `:make` at the Vim command line in order to run your system's `make` tool. Vim will print the output of `make` on the screen and bring you to the first error, if any, when the `make` command completes. You can then jump through the compilation errors and warnings in your project's code by using the `:cn` and `:cp` commands, for next and previous issues respectively.
 
 ## I Want to Learn Vim!
 
